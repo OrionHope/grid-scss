@@ -1,15 +1,7 @@
-/* ------------------------------ */
-/*  VARIABLES      			          */
-/* ------------------------------ */
-
 $columns: 12 !default;
 $reset: false !default;
 $tablet: "1100px" !default;
 $mobile: "650px" !default;
-
-/* ------------------------------ */
-/*  RESET CSS  			              */
-/* ------------------------------ */
 
 @if $reset == true {
 
@@ -62,11 +54,6 @@ $mobile: "650px" !default;
   }
 }
 
-
-/* ------------------------------ */
-/*  MIXINS  		                  */
-/* ------------------------------ */
-
 @mixin clearfix() {
   overflow: auto;
   zoom: 1;
@@ -97,10 +84,6 @@ $mobile: "650px" !default;
 @mixin row($gutter: 20px) {
   margin-left: 0 $gutter * -0.5;
 }
-
-/* ------------------------------ */
-/*  GLOBAL 		                    */
-/* ------------------------------ */
 
 * {
   box-sizing: border-box;
